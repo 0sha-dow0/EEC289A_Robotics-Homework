@@ -550,23 +550,27 @@ class Joystick(go2_base.Go2Env):
         return self._cmd_min, self._cmd_max, self._cmd_b
 
     def _student_stage2_sampling_profile(self, current_command: jax.Array) -> tuple[jax.Array, jax.Array, jax.Array]:
-        """Homework seam for stage_2 command sampling.
+        """Stage_2 command sampling: use the widened symmetric goal ranges.
 
-        TODO(student): keep stage_1 as the fixed forward-only baseline, and use
-        stage_2 to expand the command distribution beyond `{stand, +vx}`.
+        Why this works:
+        - `self._student_stage2_goal_min/max` are loaded from the JSON config
+          (`stage_2.student_stage2_goal.command_range`) and are symmetric so the
+          policy is exposed to negative `vx`, `vy`, and `yaw_rate` during stage_2.
+        - `self._student_stage2_goal_b` raises the per-axis Bernoulli keep
+          probabilities from `[1.0, 0.0, 0.0]` (stage_1) to non-zero values, so
+          vy and yaw are no longer forced to exactly zero by the active mask.
+        - We do not blend with `current_command`; the parent `sample_command`
+          already implements the smooth blend logic on top of these ranges.
 
-        The current baseline intentionally returns the same forward-only profile
-        as stage_1, so the public benchmark still exposes missing lateral / yaw
-        capability. A good stage_2 implementation should eventually use the
-        stored `self._student_stage2_goal_*` values below.
-
-        Suggested approach:
-        1. keep the baseline forward-only ranges as the starting point
-        2. widen the stage_2 sampling range toward `self._student_stage2_goal_*`
-        3. increase the probability of non-zero `vy` and `yaw_rate` commands
+        See `_command_sampling_profile` for the dispatch and `sample_command`
+        for how (cmd_min, cmd_max, cmd_keep_prob) are consumed.
         """
-        del current_command
-        return self._cmd_min, self._cmd_max, self._cmd_b
+        del current_command  # parent sample_command handles the per-axis blend
+        return (
+            self._student_stage2_goal_min,
+            self._student_stage2_goal_max,
+            self._student_stage2_goal_b,
+        )
 
     def sample_command(self, rng: jax.Array, current_command: jax.Array) -> jax.Array:
         rng, y_rng, w_rng, z_rng = jax.random.split(rng, 4)
