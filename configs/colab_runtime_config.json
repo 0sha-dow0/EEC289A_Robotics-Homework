@@ -216,7 +216,7 @@
   "runtime_overrides": {
     "num_envs": 1024,
     "num_eval_envs": 128,
-    "num_evals": 5,
+    "num_evals": 10,
     "batch_size": 256,
     "policy_hidden_layer_sizes": [
       256,
