@@ -1,0 +1,753 @@
+{
+  "checkpoint_dir": "/content/go2_course_repo/artifacts/run_final/best_checkpoint",
+  "stage_name": "stage_2",
+  "vx_max": 1.0,
+  "vy_max": 0.4,
+  "yaw_max": 1.0,
+  "seconds_per_trial": 15.0,
+  "overall": {
+    "num_trials": 50,
+    "overall_fall_rate": 0.08,
+    "mean_min_base_height": 0.2985185058414936,
+    "buckets": [
+      {
+        "command_norm_bucket": [
+          0.0,
+          0.4
+        ],
+        "num_trials": 5,
+        "fall_rate": 0.0,
+        "mean_min_base_height": 0.3155514895915985
+      },
+      {
+        "command_norm_bucket": [
+          0.4,
+          0.8
+        ],
+        "num_trials": 24,
+        "fall_rate": 0.041666666666666664,
+        "mean_min_base_height": 0.3080367421110471
+      },
+      {
+        "command_norm_bucket": [
+          0.8,
+          1.2
+        ],
+        "num_trials": 18,
+        "fall_rate": 0.1111111111111111,
+        "mean_min_base_height": 0.29170886758300996
+      },
+      {
+        "command_norm_bucket": [
+          1.2,
+          1.8
+        ],
+        "num_trials": 3,
+        "fall_rate": 0.3333333333333333,
+        "mean_min_base_height": 0.2348421389857928
+      }
+    ]
+  },
+  "per_trial": [
+    {
+      "trial": 0,
+      "command": [
+        -0.6421303726491276,
+        0.1119305325721236,
+        -0.06546319771302977
+      ],
+      "command_norm": 0.655091817881434,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3314204514026642,
+      "min_base_height": 0.3207271099090576
+    },
+    {
+      "trial": 1,
+      "command": [
+        -0.2589989457839039,
+        -0.11606613255227904,
+        0.58103649170653
+      ],
+      "command_norm": 0.6466492138226485,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33170685172080994,
+      "min_base_height": 0.3306432068347931
+    },
+    {
+      "trial": 2,
+      "command": [
+        0.8102876733543478,
+        -0.2581174465415611,
+        0.3055696053702639
+      ],
+      "command_norm": 0.9036390393986289,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.338195264339447,
+      "min_base_height": 0.31867995858192444
+    },
+    {
+      "trial": 3,
+      "command": [
+        -0.40339446528886147,
+        0.3735697601299125,
+        0.8397003210745564
+      ],
+      "command_norm": 1.003682265222376,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.32431355118751526,
+      "min_base_height": 0.32224002480506897
+    },
+    {
+      "trial": 4,
+      "command": [
+        0.2717416082893027,
+        0.20218567766326934,
+        0.0303073926447035
+      ],
+      "command_norm": 0.34006041812703297,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3495693802833557,
+      "min_base_height": 0.3245272934436798
+    },
+    {
+      "trial": 5,
+      "command": [
+        0.65179051675114,
+        -0.041295563679917435,
+        -0.3223750933724763
+      ],
+      "command_norm": 0.728328155526939,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.34352773427963257,
+      "min_base_height": 0.33745262026786804
+    },
+    {
+      "trial": 6,
+      "command": [
+        -0.4442015689996819,
+        -0.21893355452527727,
+        0.05163368669049673
+      ],
+      "command_norm": 0.49790859884129746,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3282802700996399,
+      "min_base_height": 0.32697373628616333
+    },
+    {
+      "trial": 7,
+      "command": [
+        -0.13817587863113712,
+        0.1305444963780763,
+        -0.9743190352663869
+      ],
+      "command_norm": 0.9926892874673903,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.30370843410491943,
+      "min_base_height": 0.3029637038707733
+    },
+    {
+      "trial": 8,
+      "command": [
+        -0.1045961969225584,
+        -0.10785535909408689,
+        -0.6092048002568919
+      ],
+      "command_norm": 0.6274580715490212,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.30937615036964417,
+      "min_base_height": 0.3040376901626587
+    },
+    {
+      "trial": 9,
+      "command": [
+        0.18973174201210563,
+        -0.051749475239484366,
+        -0.40001699250970035
+      ],
+      "command_norm": 0.4457462690937703,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.32464227080345154,
+      "min_base_height": 0.309123694896698
+    },
+    {
+      "trial": 10,
+      "command": [
+        -0.5811677575275609,
+        0.2996992457537436,
+        0.5949246310428653
+      ],
+      "command_norm": 0.8840310610586406,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3281627595424652,
+      "min_base_height": 0.3244233727455139
+    },
+    {
+      "trial": 11,
+      "command": [
+        0.213419353369958,
+        -0.12391953706616626,
+        0.8936395819592968
+      ],
+      "command_norm": 0.9270898416571777,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3307592272758484,
+      "min_base_height": 0.32754024863243103
+    },
+    {
+      "trial": 12,
+      "command": [
+        0.1267547490050911,
+        -0.053789808304038345,
+        0.8008991980084441
+      ],
+      "command_norm": 0.8126497617321362,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33870574831962585,
+      "min_base_height": 0.3311923146247864
+    },
+    {
+      "trial": 13,
+      "command": [
+        -0.3613163921962752,
+        0.1567958961070267,
+        -0.37235934547525984
+      ],
+      "command_norm": 0.5420202675809291,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.32281309366226196,
+      "min_base_height": 0.3216431736946106
+    },
+    {
+      "trial": 14,
+      "command": [
+        -0.47689390737640003,
+        0.1606727116006843,
+        -0.5442160421852846
+      ],
+      "command_norm": 0.7412250803350239,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3174862563610077,
+      "min_base_height": 0.3152920603752136
+    },
+    {
+      "trial": 15,
+      "command": [
+        -0.013779354030238444,
+        0.06402276241644494,
+        -0.6221872704910831
+      ],
+      "command_norm": 0.6256243155968824,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3117888867855072,
+      "min_base_height": 0.3107706904411316
+    },
+    {
+      "trial": 16,
+      "command": [
+        0.4624813167168893,
+        0.03878645169970418,
+        0.24300651925187533
+      ],
+      "command_norm": 0.5238754866822394,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.355675607919693,
+      "min_base_height": 0.3115934729576111
+    },
+    {
+      "trial": 17,
+      "command": [
+        -0.2557113664063402,
+        -0.06384539206349293,
+        -0.010340644165887536
+      ],
+      "command_norm": 0.2637640345439541,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33379408717155457,
+      "min_base_height": 0.3330199122428894
+    },
+    {
+      "trial": 18,
+      "command": [
+        -0.06005817518766032,
+        0.1405113782796985,
+        0.1543550089923984
+      ],
+      "command_norm": 0.21720013958093035,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.334938645362854,
+      "min_base_height": 0.3309299051761627
+    },
+    {
+      "trial": 19,
+      "command": [
+        -0.1674587140150674,
+        -0.3985581171145448,
+        0.5880621215510085
+      ],
+      "command_norm": 0.7298685172142613,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.2998671531677246,
+      "min_base_height": 0.2997097373008728
+    },
+    {
+      "trial": 20,
+      "command": [
+        0.03876844228867116,
+        -0.13876426895098398,
+        -8.995517761212213e-05
+      ],
+      "command_norm": 0.14407818206420092,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3362838923931122,
+      "min_base_height": 0.30005767941474915
+    },
+    {
+      "trial": 21,
+      "command": [
+        -0.8131081330107639,
+        0.32376325804268224,
+        0.9794723351690069
+      ],
+      "command_norm": 1.3135195234895025,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3292490243911743,
+      "min_base_height": 0.32625359296798706
+    },
+    {
+      "trial": 22,
+      "command": [
+        -0.8825295649688341,
+        -0.11341502512689489,
+        0.46012915563816703
+      ],
+      "command_norm": 1.001718643550626,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33287277817726135,
+      "min_base_height": 0.32756251096725464
+    },
+    {
+      "trial": 23,
+      "command": [
+        -0.3715237375642346,
+        0.053639806691559155,
+        -0.16685807536994024
+      ],
+      "command_norm": 0.410790376897715,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3297373652458191,
+      "min_base_height": 0.3274599313735962
+    },
+    {
+      "trial": 24,
+      "command": [
+        0.5484243152617498,
+        0.3667715207712271,
+        0.7767908526333533
+      ],
+      "command_norm": 1.0191636800602786,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.32211098074913025,
+      "min_base_height": 0.3114831745624542
+    },
+    {
+      "trial": 25,
+      "command": [
+        0.241870930400099,
+        -0.2717805498655442,
+        0.8941241666233255
+      ],
+      "command_norm": 0.9653104369049801,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.31894978880882263,
+      "min_base_height": 0.3176076412200928
+    },
+    {
+      "trial": 26,
+      "command": [
+        -0.9527351426564479,
+        -0.16183243486331086,
+        -0.4367730137988084
+      ],
+      "command_norm": 1.0605020766642959,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.31409722566604614,
+      "min_base_height": 0.3127985894680023
+    },
+    {
+      "trial": 27,
+      "command": [
+        0.3436519634454094,
+        -0.01010954714199086,
+        -0.8142229024851055
+      ],
+      "command_norm": 0.8838313243230129,
+      "fell": true,
+      "first_fall_step": 469,
+      "first_fall_seconds": 9.38,
+      "final_base_height": 0.3081323504447937,
+      "min_base_height": 0.07705619931221008
+    },
+    {
+      "trial": 28,
+      "command": [
+        -0.9742842245101393,
+        0.08345259741891031,
+        -0.01703333531814777
+      ],
+      "command_norm": 0.9780001128104979,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3336835503578186,
+      "min_base_height": 0.3085739016532898
+    },
+    {
+      "trial": 29,
+      "command": [
+        0.2027642426808023,
+        0.051219091092427615,
+        0.78091821659936
+      ],
+      "command_norm": 0.8084367596905639,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33815285563468933,
+      "min_base_height": 0.3281397223472595
+    },
+    {
+      "trial": 30,
+      "command": [
+        0.8367937157411935,
+        -0.249394271118108,
+        0.8842417389410684
+      ],
+      "command_norm": 1.2427005584838249,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.32303109765052795,
+      "min_base_height": 0.31338998675346375
+    },
+    {
+      "trial": 31,
+      "command": [
+        0.5754532526455671,
+        0.11122100177837313,
+        0.31921453498189867
+      ],
+      "command_norm": 0.6673937942179696,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.34764978289604187,
+      "min_base_height": 0.3179434835910797
+    },
+    {
+      "trial": 32,
+      "command": [
+        0.09212045980128503,
+        0.3338106397142726,
+        -0.5334735875997225
+      ],
+      "command_norm": 0.6360108418627555,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.31699255108833313,
+      "min_base_height": 0.3142697811126709
+    },
+    {
+      "trial": 33,
+      "command": [
+        0.19863198453916175,
+        0.2513944494973205,
+        -0.7304770967577401
+      ],
+      "command_norm": 0.7976531974534067,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3034627437591553,
+      "min_base_height": 0.3008895516395569
+    },
+    {
+      "trial": 34,
+      "command": [
+        0.23101654871773403,
+        -0.07773321957634083,
+        0.5320726829325657
+      ],
+      "command_norm": 0.5852456229056441,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3376848101615906,
+      "min_base_height": 0.3036690354347229
+    },
+    {
+      "trial": 35,
+      "command": [
+        -0.8645712787589188,
+        0.08545150482736269,
+        0.7141573799732936
+      ],
+      "command_norm": 1.1246360385041965,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3375738561153412,
+      "min_base_height": 0.3361474871635437
+    },
+    {
+      "trial": 36,
+      "command": [
+        0.2566957247261812,
+        -0.14292984363718342,
+        0.31159211184377833
+      ],
+      "command_norm": 0.4282654310799726,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.344002902507782,
+      "min_base_height": 0.3260933756828308
+    },
+    {
+      "trial": 37,
+      "command": [
+        -0.3236943145279785,
+        0.13487423072807203,
+        -0.743311197115893
+      ],
+      "command_norm": 0.8218762699640919,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.31144630908966064,
+      "min_base_height": 0.3110695481300354
+    },
+    {
+      "trial": 38,
+      "command": [
+        -0.44001651160821464,
+        -0.37382529744246773,
+        -0.8321812220746183
+      ],
+      "command_norm": 1.0128600445616447,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.2892606854438782,
+      "min_base_height": 0.28360506892204285
+    },
+    {
+      "trial": 39,
+      "command": [
+        0.10953923963301304,
+        -0.21464142288615423,
+        0.0321651752754637
+      ],
+      "command_norm": 0.24311393201228276,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33310243487358093,
+      "min_base_height": 0.2892226576805115
+    },
+    {
+      "trial": 40,
+      "command": [
+        0.3191390661456821,
+        0.30494894347961876,
+        -0.28987797082292266
+      ],
+      "command_norm": 0.5280841217439595,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3254157304763794,
+      "min_base_height": 0.3162858188152313
+    },
+    {
+      "trial": 41,
+      "command": [
+        -0.3626420671225097,
+        -0.1490666067489536,
+        -0.7643007109512094
+      ],
+      "command_norm": 0.8590027350684386,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.30049633979797363,
+      "min_base_height": 0.29843494296073914
+    },
+    {
+      "trial": 42,
+      "command": [
+        0.3263667293145289,
+        0.2557236651497683,
+        -0.053990278274022474
+      ],
+      "command_norm": 0.41812053892292855,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33557066321372986,
+      "min_base_height": 0.30052295327186584
+    },
+    {
+      "trial": 43,
+      "command": [
+        0.11659479389709482,
+        0.36678409095649467,
+        0.39783034330497724
+      ],
+      "command_norm": 0.5535285876961047,
+      "fell": true,
+      "first_fall_step": 398,
+      "first_fall_seconds": 7.96,
+      "final_base_height": 0.3324654698371887,
+      "min_base_height": 0.1431387960910797
+    },
+    {
+      "trial": 44,
+      "command": [
+        0.49006977329530366,
+        0.3115986858436227,
+        -0.5684188478317622
+      ],
+      "command_norm": 0.8126266733793391,
+      "fell": true,
+      "first_fall_step": 42,
+      "first_fall_seconds": 0.84,
+      "final_base_height": 0.3375072181224823,
+      "min_base_height": 0.11124120652675629
+    },
+    {
+      "trial": 45,
+      "command": [
+        0.30033211664138126,
+        0.17391560426111485,
+        0.6844558594470516
+      ],
+      "command_norm": 0.7674150384395675,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.3391447961330414,
+      "min_base_height": 0.31113800406455994
+    },
+    {
+      "trial": 46,
+      "command": [
+        -0.31242890799621126,
+        0.1510357645704381,
+        0.2088012116052116
+      ],
+      "command_norm": 0.40499576627279227,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.33323031663894653,
+      "min_base_height": 0.3318338692188263
+    },
+    {
+      "trial": 47,
+      "command": [
+        -0.18127793235466938,
+        -0.31865139433426937,
+        -0.2939031324337191
+      ],
+      "command_norm": 0.46987173901428714,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.31021496653556824,
+      "min_base_height": 0.30892303586006165
+    },
+    {
+      "trial": 48,
+      "command": [
+        0.9269694962409576,
+        -0.22678119870976118,
+        -0.7727240128236488
+      ],
+      "command_norm": 1.2279269355477684,
+      "fell": true,
+      "first_fall_step": 128,
+      "first_fall_seconds": 2.56,
+      "final_base_height": 0.3129735291004181,
+      "min_base_height": 0.06488283723592758
+    },
+    {
+      "trial": 49,
+      "command": [
+        -0.26464115052598447,
+        -0.31921536631521436,
+        -0.4656021363274572
+      ],
+      "command_norm": 0.6234731253199013,
+      "fell": false,
+      "first_fall_step": null,
+      "first_fall_seconds": null,
+      "final_base_height": 0.30365416407585144,
+      "min_base_height": 0.30274698138237
+    }
+  ]
+}

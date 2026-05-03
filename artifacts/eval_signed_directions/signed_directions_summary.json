@@ -1,0 +1,163 @@
+{
+  "checkpoint_dir": "/content/go2_course_repo/artifacts/run_final/best_checkpoint",
+  "stage_name": "stage_2",
+  "directions": [
+    "stand",
+    "+vx",
+    "-vx",
+    "+vy",
+    "-vy",
+    "+yaw",
+    "-yaw"
+  ],
+  "commands": {
+    "stand": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "+vx": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "-vx": [
+      -0.5,
+      0.0,
+      0.0
+    ],
+    "+vy": [
+      0.0,
+      0.15,
+      0.0
+    ],
+    "-vy": [
+      0.0,
+      -0.15,
+      0.0
+    ],
+    "+yaw": [
+      0.0,
+      0.0,
+      0.5
+    ],
+    "-yaw": [
+      0.0,
+      0.0,
+      -0.5
+    ]
+  },
+  "duration_steps_per_segment": 400,
+  "steady_state_steps_per_segment": 250,
+  "per_direction_metrics": {
+    "stand": {
+      "velocity_tracking_error": 0.012818936631083489,
+      "yaw_tracking_error": 0.03774638026952744,
+      "fall_rate": 0.0,
+      "energy_proxy": 2.1277464389801026,
+      "foot_slip_proxy": 0.004255550261586904,
+      "velocity_tracking_error_std": 0.0008020412526194585,
+      "yaw_tracking_error_std": 0.0013807899842745337,
+      "fall_rate_std": 0.0,
+      "energy_proxy_std": 0.06002254466821303,
+      "foot_slip_proxy_std": 0.00039047587889183116,
+      "num_seeds": 5
+    },
+    "+vx": {
+      "velocity_tracking_error": 0.06213015392422676,
+      "yaw_tracking_error": 0.060268431156873706,
+      "fall_rate": 0.0,
+      "energy_proxy": 36.85736923217773,
+      "foot_slip_proxy": 0.4779000818729401,
+      "velocity_tracking_error_std": 0.001078341017237204,
+      "yaw_tracking_error_std": 0.004482883848920228,
+      "fall_rate_std": 0.0,
+      "energy_proxy_std": 0.7830354681200067,
+      "foot_slip_proxy_std": 0.0052608552821819315,
+      "num_seeds": 5
+    },
+    "-vx": {
+      "velocity_tracking_error": 0.5000974237918854,
+      "yaw_tracking_error": 0.038798549026250836,
+      "fall_rate": 0.0,
+      "energy_proxy": 2.114131546020508,
+      "foot_slip_proxy": 0.0045193820260465145,
+      "velocity_tracking_error_std": 0.00022751410685471947,
+      "yaw_tracking_error_std": 0.0020272121346869257,
+      "fall_rate_std": 0.0,
+      "energy_proxy_std": 0.06997652946249143,
+      "foot_slip_proxy_std": 0.000476196436176203,
+      "num_seeds": 5
+    },
+    "+vy": {
+      "velocity_tracking_error": 0.1503617763519287,
+      "yaw_tracking_error": 0.044757972657680514,
+      "fall_rate": 0.0,
+      "energy_proxy": 2.7608338832855224,
+      "foot_slip_proxy": 0.004690487124025822,
+      "velocity_tracking_error_std": 0.00020533961615010462,
+      "yaw_tracking_error_std": 0.0025144059305762124,
+      "fall_rate_std": 0.0,
+      "energy_proxy_std": 0.1411378503218183,
+      "foot_slip_proxy_std": 9.74052171257991e-05,
+      "num_seeds": 5
+    },
+    "-vy": {
+      "velocity_tracking_error": 0.1505596697330475,
+      "yaw_tracking_error": 0.03757435828447342,
+      "fall_rate": 0.0,
+      "energy_proxy": 2.12633638381958,
+      "foot_slip_proxy": 0.004021647665649652,
+      "velocity_tracking_error_std": 0.00030894273083336104,
+      "yaw_tracking_error_std": 0.0027816366678953155,
+      "fall_rate_std": 0.0,
+      "energy_proxy_std": 0.06870131855301904,
+      "foot_slip_proxy_std": 0.00026561338210183557,
+      "num_seeds": 5
+    },
+    "+yaw": {
+      "velocity_tracking_error": 0.015318032540380954,
+      "yaw_tracking_error": 0.4996611297130585,
+      "fall_rate": 0.0,
+      "energy_proxy": 1.8779260158538817,
+      "foot_slip_proxy": 0.004760252404958009,
+      "velocity_tracking_error_std": 0.0011895571214963765,
+      "yaw_tracking_error_std": 0.003138791013326204,
+      "fall_rate_std": 0.0,
+      "energy_proxy_std": 0.08284351075981979,
+      "foot_slip_proxy_std": 0.00041029240635112325,
+      "num_seeds": 5
+    },
+    "-yaw": {
+      "velocity_tracking_error": 0.019810371845960618,
+      "yaw_tracking_error": 0.49680662155151367,
+      "fall_rate": 0.0,
+      "energy_proxy": 3.545733022689819,
+      "foot_slip_proxy": 0.006360382121056318,
+      "velocity_tracking_error_std": 0.0009861092851015476,
+      "yaw_tracking_error_std": 0.002626889754389918,
+      "fall_rate_std": 0.0,
+      "energy_proxy_std": 0.21168795298291027,
+      "foot_slip_proxy_std": 0.00026986264320575325,
+      "num_seeds": 5
+    }
+  },
+  "negative_minus_positive_delta": {
+    "vx": {
+      "velocity_tracking_error_delta": 0.4379672698676586,
+      "yaw_tracking_error_delta": -0.02146988213062287
+    },
+    "vy": {
+      "velocity_tracking_error_delta": 0.00019789338111877997,
+      "yaw_tracking_error_delta": -0.007183614373207095
+    },
+    "yaw": {
+      "velocity_tracking_error_delta": 0.004492339305579664,
+      "yaw_tracking_error_delta": -0.002854508161544811
+    }
+  },
+  "headline": {
+    "max_negative_penalty_velocity_tracking": 0.4379672698676586,
+    "yaw_negative_penalty": -0.002854508161544811
+  }
+}

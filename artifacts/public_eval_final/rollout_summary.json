@@ -1,0 +1,20 @@
+{
+  "checkpoint_dir": "/content/go2_course_repo/artifacts/run_final/best_checkpoint",
+  "stage_name": "stage_2",
+  "num_episodes": 4,
+  "episode_length_steps": 1500,
+  "episode_lengths_realized": [
+    1500,
+    1500,
+    1500,
+    1500
+  ],
+  "episode_labels": [
+    "forward_only",
+    "lateral_only",
+    "yaw_only",
+    "combined"
+  ],
+  "rollout_npz": "/content/go2_course_repo/artifacts/public_eval_final/rollout_public_eval.npz",
+  "video_path": "/content/go2_course_repo/artifacts/public_eval_final/public_eval_episode0.mp4"
+}

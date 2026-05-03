@@ -1,0 +1,146 @@
+{
+  "video_path": "artifacts/video_demo/video_demo.mp4",
+  "rollout_npz": "artifacts/video_demo/rollout_video_demo.npz",
+  "fps": 50,
+  "num_steps": 3550,
+  "duration_seconds": 71.0,
+  "segments": [
+    {
+      "label": "stand_intro",
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 3.0
+    },
+    {
+      "label": "forward_0p6",
+      "command": [
+        0.6,
+        0.0,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "forward_0p8",
+      "command": [
+        0.8,
+        0.0,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "forward_1p0",
+      "command": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "backward_0p8",
+      "command": [
+        -0.8,
+        0.0,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "strafe_right_0p2",
+      "command": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "strafe_right_0p3",
+      "command": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "strafe_left_0p4",
+      "command": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "turn_left_0p6",
+      "command": [
+        0.0,
+        0.0,
+        0.6
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "turn_left_0p8",
+      "command": [
+        0.0,
+        0.0,
+        0.8
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "turn_right_1p0",
+      "command": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "walk_and_turn",
+      "command": [
+        0.6,
+        0.0,
+        0.5
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "diagonal_walk",
+      "command": [
+        0.5,
+        0.3,
+        0.0
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "combined_triple",
+      "command": [
+        0.6,
+        0.2,
+        0.5
+      ],
+      "seconds": 5.0
+    },
+    {
+      "label": "stand_outro",
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 3.0
+    }
+  ],
+  "drew_command_arrow": true,
+  "any_fall_during_demo": false
+}

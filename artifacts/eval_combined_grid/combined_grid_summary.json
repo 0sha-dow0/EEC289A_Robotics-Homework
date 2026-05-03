@@ -1,0 +1,714 @@
+{
+  "checkpoint_dir": "/content/go2_course_repo/artifacts/run_final/best_checkpoint",
+  "stage_name": "stage_2",
+  "grid_size": 5,
+  "vx_max": 1.0,
+  "vy_max": 0.4,
+  "yaw_max": 1.0,
+  "grids": {
+    "vx_yaw": {
+      "-1.00|-1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -1.0,
+        "value_b": -1.0,
+        "metrics": {
+          "velocity_tracking_error": 1.0000333786010742,
+          "yaw_tracking_error": 1.0044066905975342,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.347062587738037,
+          "foot_slip_proxy": 0.00716104032471776,
+          "num_steps": 150
+        }
+      },
+      "-1.00|-0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -1.0,
+        "value_b": -0.5,
+        "metrics": {
+          "velocity_tracking_error": 1.0023329257965088,
+          "yaw_tracking_error": 0.5052623748779297,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.494678497314453,
+          "foot_slip_proxy": 0.005290803033858538,
+          "num_steps": 150
+        }
+      },
+      "-1.00|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -1.0,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.9997352957725525,
+          "yaw_tracking_error": 0.03500645235180855,
+          "fall_rate": 0.0,
+          "energy_proxy": 1.9948071241378784,
+          "foot_slip_proxy": 0.004877656698226929,
+          "num_steps": 150
+        }
+      },
+      "-1.00|+0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -1.0,
+        "value_b": 0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.9985542893409729,
+          "yaw_tracking_error": 0.4833829700946808,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.205014228820801,
+          "foot_slip_proxy": 0.007170427590608597,
+          "num_steps": 150
+        }
+      },
+      "-1.00|+1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -1.0,
+        "value_b": 1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.998257577419281,
+          "yaw_tracking_error": 1.0038529634475708,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.411419153213501,
+          "foot_slip_proxy": 0.006651268340647221,
+          "num_steps": 150
+        }
+      },
+      "-0.50|-1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -0.5,
+        "value_b": -1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.5002810955047607,
+          "yaw_tracking_error": 0.991797685623169,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.420569658279419,
+          "foot_slip_proxy": 0.009437867440283298,
+          "num_steps": 150
+        }
+      },
+      "-0.50|-0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -0.5,
+        "value_b": -0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.5007642507553101,
+          "yaw_tracking_error": 0.4967787563800812,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.716207265853882,
+          "foot_slip_proxy": 0.005211053881794214,
+          "num_steps": 150
+        }
+      },
+      "-0.50|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -0.5,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.4994876980781555,
+          "yaw_tracking_error": 0.03408866375684738,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.093945264816284,
+          "foot_slip_proxy": 0.0050322506576776505,
+          "num_steps": 150
+        }
+      },
+      "-0.50|+0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -0.5,
+        "value_b": 0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.49701768159866333,
+          "yaw_tracking_error": 0.4857306480407715,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.2584304809570312,
+          "foot_slip_proxy": 0.006658758502453566,
+          "num_steps": 150
+        }
+      },
+      "-0.50|+1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": -0.5,
+        "value_b": 1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.5003822445869446,
+          "yaw_tracking_error": 1.0052250623703003,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.156268835067749,
+          "foot_slip_proxy": 0.0061530075035989285,
+          "num_steps": 150
+        }
+      },
+      "+0.00|-1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.0,
+        "value_b": -1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.019104482606053352,
+          "yaw_tracking_error": 0.9957737326622009,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.6884536743164062,
+          "foot_slip_proxy": 0.009530116803944111,
+          "num_steps": 150
+        }
+      },
+      "+0.00|-0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.0,
+        "value_b": -0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.017124073579907417,
+          "yaw_tracking_error": 0.4988599717617035,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.3403642177581787,
+          "foot_slip_proxy": 0.0067338356748223305,
+          "num_steps": 150
+        }
+      },
+      "+0.00|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.0,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.012700245715677738,
+          "yaw_tracking_error": 0.03171272203326225,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.0663864612579346,
+          "foot_slip_proxy": 0.0060876901261508465,
+          "num_steps": 150
+        }
+      },
+      "+0.00|+0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.0,
+        "value_b": 0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.015376370400190353,
+          "yaw_tracking_error": 0.48169881105422974,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.002474069595337,
+          "foot_slip_proxy": 0.006306434981524944,
+          "num_steps": 150
+        }
+      },
+      "+0.00|+1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.0,
+        "value_b": 1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.015530512668192387,
+          "yaw_tracking_error": 0.9997073411941528,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.0434534549713135,
+          "foot_slip_proxy": 0.005226551555097103,
+          "num_steps": 150
+        }
+      },
+      "+0.50|-1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.5,
+        "value_b": -1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.25870370864868164,
+          "yaw_tracking_error": 0.43146026134490967,
+          "fall_rate": 0.0,
+          "energy_proxy": 40.382381439208984,
+          "foot_slip_proxy": 0.32071325182914734,
+          "num_steps": 150
+        }
+      },
+      "+0.50|-0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.5,
+        "value_b": -0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.07125003635883331,
+          "yaw_tracking_error": 0.10028280317783356,
+          "fall_rate": 0.0,
+          "energy_proxy": 40.29140090942383,
+          "foot_slip_proxy": 0.5143002867698669,
+          "num_steps": 150
+        }
+      },
+      "+0.50|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.5,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.05596838518977165,
+          "yaw_tracking_error": 0.06045897305011749,
+          "fall_rate": 0.0,
+          "energy_proxy": 37.228633880615234,
+          "foot_slip_proxy": 0.4718996286392212,
+          "num_steps": 150
+        }
+      },
+      "+0.50|+0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.5,
+        "value_b": 0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.05547977611422539,
+          "yaw_tracking_error": 0.06986580044031143,
+          "fall_rate": 0.0,
+          "energy_proxy": 43.310001373291016,
+          "foot_slip_proxy": 0.5124982595443726,
+          "num_steps": 150
+        }
+      },
+      "+0.50|+1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 0.5,
+        "value_b": 1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.06578927487134933,
+          "yaw_tracking_error": 0.12298386543989182,
+          "fall_rate": 0.0,
+          "energy_proxy": 52.26075744628906,
+          "foot_slip_proxy": 0.5713030695915222,
+          "num_steps": 150
+        }
+      },
+      "+1.00|-1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 1.0,
+        "value_b": -1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.4511078894138336,
+          "yaw_tracking_error": 0.3808804750442505,
+          "fall_rate": 0.006666666828095913,
+          "energy_proxy": 95.17572784423828,
+          "foot_slip_proxy": 0.7583351731300354,
+          "num_steps": 150
+        }
+      },
+      "+1.00|-0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 1.0,
+        "value_b": -0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.11601854860782623,
+          "yaw_tracking_error": 0.12876468896865845,
+          "fall_rate": 0.0,
+          "energy_proxy": 92.58391571044922,
+          "foot_slip_proxy": 0.9765300750732422,
+          "num_steps": 150
+        }
+      },
+      "+1.00|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 1.0,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.1287054717540741,
+          "yaw_tracking_error": 0.06063046678900719,
+          "fall_rate": 0.0,
+          "energy_proxy": 84.2090072631836,
+          "foot_slip_proxy": 0.9235677123069763,
+          "num_steps": 150
+        }
+      },
+      "+1.00|+0.50": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 1.0,
+        "value_b": 0.5,
+        "metrics": {
+          "velocity_tracking_error": 0.1460842341184616,
+          "yaw_tracking_error": 0.08905471861362457,
+          "fall_rate": 0.0,
+          "energy_proxy": 89.37368774414062,
+          "foot_slip_proxy": 0.9228814840316772,
+          "num_steps": 150
+        }
+      },
+      "+1.00|+1.00": {
+        "axis_a": "vx",
+        "axis_b": "yaw",
+        "value_a": 1.0,
+        "value_b": 1.0,
+        "metrics": {
+          "velocity_tracking_error": 0.22520756721496582,
+          "yaw_tracking_error": 0.13264712691307068,
+          "fall_rate": 0.0,
+          "energy_proxy": 90.16227722167969,
+          "foot_slip_proxy": 0.896847128868103,
+          "num_steps": 150
+        }
+      }
+    },
+    "vx_vy": {
+      "-1.00|-0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -1.0,
+        "value_b": -0.4,
+        "metrics": {
+          "velocity_tracking_error": 1.0767085552215576,
+          "yaw_tracking_error": 0.04768526554107666,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.037942409515381,
+          "foot_slip_proxy": 0.005681751761585474,
+          "num_steps": 150
+        }
+      },
+      "-1.00|-0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -1.0,
+        "value_b": -0.2,
+        "metrics": {
+          "velocity_tracking_error": 1.0204038619995117,
+          "yaw_tracking_error": 0.03726864978671074,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.5519907474517822,
+          "foot_slip_proxy": 0.005080241244286299,
+          "num_steps": 150
+        }
+      },
+      "-1.00|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -1.0,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 1.0000121593475342,
+          "yaw_tracking_error": 0.038720596581697464,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.1210579872131348,
+          "foot_slip_proxy": 0.0048645371571183205,
+          "num_steps": 150
+        }
+      },
+      "-1.00|+0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -1.0,
+        "value_b": 0.20000000000000007,
+        "metrics": {
+          "velocity_tracking_error": 1.0182108879089355,
+          "yaw_tracking_error": 0.04090365767478943,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.426920175552368,
+          "foot_slip_proxy": 0.004766917787492275,
+          "num_steps": 150
+        }
+      },
+      "-1.00|+0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -1.0,
+        "value_b": 0.4,
+        "metrics": {
+          "velocity_tracking_error": 1.0769000053405762,
+          "yaw_tracking_error": 0.045864179730415344,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.8567423820495605,
+          "foot_slip_proxy": 0.005195373669266701,
+          "num_steps": 150
+        }
+      },
+      "-0.50|-0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -0.5,
+        "value_b": -0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.6421785354614258,
+          "yaw_tracking_error": 0.04218322038650513,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.6716272830963135,
+          "foot_slip_proxy": 0.006233320105820894,
+          "num_steps": 150
+        }
+      },
+      "-0.50|-0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -0.5,
+        "value_b": -0.2,
+        "metrics": {
+          "velocity_tracking_error": 0.5362459421157837,
+          "yaw_tracking_error": 0.0433654822409153,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.187520742416382,
+          "foot_slip_proxy": 0.004837687127292156,
+          "num_steps": 150
+        }
+      },
+      "-0.50|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -0.5,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.4986960291862488,
+          "yaw_tracking_error": 0.03734049201011658,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.069350242614746,
+          "foot_slip_proxy": 0.004721960052847862,
+          "num_steps": 150
+        }
+      },
+      "-0.50|+0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -0.5,
+        "value_b": 0.20000000000000007,
+        "metrics": {
+          "velocity_tracking_error": 0.5366942286491394,
+          "yaw_tracking_error": 0.04435271769762039,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.432002544403076,
+          "foot_slip_proxy": 0.004957481753081083,
+          "num_steps": 150
+        }
+      },
+      "-0.50|+0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": -0.5,
+        "value_b": 0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.6380332708358765,
+          "yaw_tracking_error": 0.05688779801130295,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.277804136276245,
+          "foot_slip_proxy": 0.006220702081918716,
+          "num_steps": 150
+        }
+      },
+      "+0.00|-0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.0,
+        "value_b": -0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.40099480748176575,
+          "yaw_tracking_error": 0.039114341139793396,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.2778518199920654,
+          "foot_slip_proxy": 0.006119107361882925,
+          "num_steps": 150
+        }
+      },
+      "+0.00|-0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.0,
+        "value_b": -0.2,
+        "metrics": {
+          "velocity_tracking_error": 0.1993028074502945,
+          "yaw_tracking_error": 0.0409112349152565,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.2997336387634277,
+          "foot_slip_proxy": 0.004934526979923248,
+          "num_steps": 150
+        }
+      },
+      "+0.00|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.0,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.01357757393270731,
+          "yaw_tracking_error": 0.0368572436273098,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.109393358230591,
+          "foot_slip_proxy": 0.004768828395754099,
+          "num_steps": 150
+        }
+      },
+      "+0.00|+0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.0,
+        "value_b": 0.20000000000000007,
+        "metrics": {
+          "velocity_tracking_error": 0.19939474761486053,
+          "yaw_tracking_error": 0.04218607768416405,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.202378273010254,
+          "foot_slip_proxy": 0.005393503699451685,
+          "num_steps": 150
+        }
+      },
+      "+0.00|+0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.0,
+        "value_b": 0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.39844557642936707,
+          "yaw_tracking_error": 0.053891800343990326,
+          "fall_rate": 0.0,
+          "energy_proxy": 3.4406497478485107,
+          "foot_slip_proxy": 0.006256390362977982,
+          "num_steps": 150
+        }
+      },
+      "+0.50|-0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.5,
+        "value_b": -0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.6406572461128235,
+          "yaw_tracking_error": 0.04738957807421684,
+          "fall_rate": 0.0,
+          "energy_proxy": 2.355515241622925,
+          "foot_slip_proxy": 0.006259888410568237,
+          "num_steps": 150
+        }
+      },
+      "+0.50|-0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.5,
+        "value_b": -0.2,
+        "metrics": {
+          "velocity_tracking_error": 0.16710735857486725,
+          "yaw_tracking_error": 0.06477634608745575,
+          "fall_rate": 0.0,
+          "energy_proxy": 31.253145217895508,
+          "foot_slip_proxy": 0.4185129404067993,
+          "num_steps": 150
+        }
+      },
+      "+0.50|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.5,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.06615635007619858,
+          "yaw_tracking_error": 0.057869553565979004,
+          "fall_rate": 0.0,
+          "energy_proxy": 34.45719909667969,
+          "foot_slip_proxy": 0.4651626646518707,
+          "num_steps": 150
+        }
+      },
+      "+0.50|+0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.5,
+        "value_b": 0.20000000000000007,
+        "metrics": {
+          "velocity_tracking_error": 0.0974358394742012,
+          "yaw_tracking_error": 0.0662865862250328,
+          "fall_rate": 0.0,
+          "energy_proxy": 45.38224792480469,
+          "foot_slip_proxy": 0.5287759900093079,
+          "num_steps": 150
+        }
+      },
+      "+0.50|+0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 0.5,
+        "value_b": 0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.33312463760375977,
+          "yaw_tracking_error": 0.1363258808851242,
+          "fall_rate": 0.0,
+          "energy_proxy": 45.383026123046875,
+          "foot_slip_proxy": 0.41879338026046753,
+          "num_steps": 150
+        }
+      },
+      "+1.00|-0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 1.0,
+        "value_b": -0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.9583805203437805,
+          "yaw_tracking_error": 0.1183086559176445,
+          "fall_rate": 0.006666666828095913,
+          "energy_proxy": 18.338851928710938,
+          "foot_slip_proxy": 0.15499483048915863,
+          "num_steps": 150
+        }
+      },
+      "+1.00|-0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 1.0,
+        "value_b": -0.2,
+        "metrics": {
+          "velocity_tracking_error": 0.22478942573070526,
+          "yaw_tracking_error": 0.08379525691270828,
+          "fall_rate": 0.0,
+          "energy_proxy": 75.58118438720703,
+          "foot_slip_proxy": 0.8566113114356995,
+          "num_steps": 150
+        }
+      },
+      "+1.00|+0.00": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 1.0,
+        "value_b": 0.0,
+        "metrics": {
+          "velocity_tracking_error": 0.1340031623840332,
+          "yaw_tracking_error": 0.06884603202342987,
+          "fall_rate": 0.0,
+          "energy_proxy": 87.19722747802734,
+          "foot_slip_proxy": 0.9178138971328735,
+          "num_steps": 150
+        }
+      },
+      "+1.00|+0.20": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 1.0,
+        "value_b": 0.20000000000000007,
+        "metrics": {
+          "velocity_tracking_error": 0.1238221749663353,
+          "yaw_tracking_error": 0.07111609727144241,
+          "fall_rate": 0.0,
+          "energy_proxy": 92.08857727050781,
+          "foot_slip_proxy": 0.9543035626411438,
+          "num_steps": 150
+        }
+      },
+      "+1.00|+0.40": {
+        "axis_a": "vx",
+        "axis_b": "vy",
+        "value_a": 1.0,
+        "value_b": 0.4,
+        "metrics": {
+          "velocity_tracking_error": 0.2768470346927643,
+          "yaw_tracking_error": 0.11152951419353485,
+          "fall_rate": 0.0,
+          "energy_proxy": 94.51032257080078,
+          "foot_slip_proxy": 0.8924805521965027,
+          "num_steps": 150
+        }
+      }
+    }
+  }
+}

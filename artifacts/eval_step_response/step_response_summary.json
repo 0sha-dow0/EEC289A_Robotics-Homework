@@ -1,0 +1,74 @@
+{
+  "checkpoint_dir": "/content/go2_course_repo/artifacts/run_final/best_checkpoint",
+  "stage_name": "stage_2",
+  "segments": [
+    {
+      "label": "stand",
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 2.0,
+      "start_step": 0,
+      "end_step": 100
+    },
+    {
+      "label": "forward_max",
+      "command": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 5.0,
+      "start_step": 100,
+      "end_step": 350
+    },
+    {
+      "label": "yaw_max",
+      "command": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "seconds": 5.0,
+      "start_step": 350,
+      "end_step": 600
+    },
+    {
+      "label": "backward_strafe",
+      "command": [
+        -0.5,
+        -0.3,
+        0.0
+      ],
+      "seconds": 5.0,
+      "start_step": 600,
+      "end_step": 850
+    },
+    {
+      "label": "combined_full",
+      "command": [
+        0.6,
+        0.2,
+        0.5
+      ],
+      "seconds": 5.0,
+      "start_step": 850,
+      "end_step": 1100
+    },
+    {
+      "label": "stand_recover",
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 3.0,
+      "start_step": 1100,
+      "end_step": 1250
+    }
+  ],
+  "fall_during_rollout": false,
+  "first_fall_step": null
+}
